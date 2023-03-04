@@ -1,0 +1,17 @@
+<header>
+    <img src="../../../../assets/angular.svg" alt="Logo do Angular">
+
+    <ul>
+        <li>
+            <a routerLink="">Home</a>
+        </li>
+        <li>
+           <a routerLink="sobre">Sobre</a>
+        </li>
+        <li>
+            <Button type="button" (click)="toggleDarkTheme()">
+                <img src="../../../../assets/{{icon}}.svg" alt="Clique aqui parar mudar para o tema {{textTheme}}">
+            </Button>
+        </li>
+    </ul>
+</header>
